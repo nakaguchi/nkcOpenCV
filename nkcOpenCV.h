@@ -126,5 +126,5 @@ cv::Mat KeepAspectResize(cv::Mat& img, int width = 0, int height = 0);
 // ウインドウハンドルを取得
 HANDLE getWindowHandle(cv::String winname);
 
-}; // namespace cv
+}; // namespace ocv
 }; // namespace nkc

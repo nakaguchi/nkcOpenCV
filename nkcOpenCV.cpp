@@ -2,6 +2,7 @@
 #include <Windows.h>
 
 namespace nkc {
+namespace ocv {
 
 // ‘Ò‚½‚È‚¢waitKey()
 int noWaitKey() {
@@ -87,4 +88,5 @@ HANDLE getWindowHandle(cv::String winname) {
 }
 
 
-}; // namespace gocv
+}; // namespace ocv
+}; // namespace nkc
